@@ -1,0 +1,7 @@
+print("Sinh Vien : Pham Phuc Hung")
+print("MSSV : 23575201610057")
+sentence = input("Nhập câu: ")
+letters = sum(c.isalpha() for c in sentence)
+digits = sum(c.isdigit() for c in sentence)
+print(f"Số chữ cái là: {letters}")
+print(f"Số chữ số là: {digits}")
